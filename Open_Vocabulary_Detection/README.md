@@ -15,6 +15,7 @@ cd GenerativeAI_on_Jetson/Open_Vocabulary_Detection
 2. Install dependencies
 
 	a. Install PyTorch
+	
 	b. Install [torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
 	```
 	git clone https://github.com/NVIDIA-AI-IOT/torch2trt
@@ -22,19 +23,24 @@ cd GenerativeAI_on_Jetson/Open_Vocabulary_Detection
 	python setup.py install --user
 	cd ..
 	```
+	
 	c. Install NVIDIA TensorRT
+	
 	d. Install the Transformers library
 	```
 	python3 -m pip install transformers
 	```
+	
 	e. Install the NanoOWL package
 	```
 	python3 setup.py develop --user
 	```
+	
 	f. Install tensorflow
 	```
 	pip3 install tensorflow
 	```
+	
 	g. Install clip
 	```
 	git clone https://github.com/openai/CLIP.git
@@ -42,7 +48,8 @@ cd GenerativeAI_on_Jetson/Open_Vocabulary_Detection
 	pip install -r requirements.txt
 	cd ..
 	```
-	i. Install other dependencies
+	
+	h. Install other dependencies
 	```
 	pip3 install aiohttp
 	```
