@@ -1,4 +1,5 @@
 # Open-Vocabulary Detection and Segmentation
+Demo is running on Jetson Orin Nano 8 Gb
 
 ![detection and segmentation demo](output.gif)
 
@@ -72,7 +73,7 @@ trtexec \
 To launch the openvocabulary demo on its own, you can run the tree_demo.py script. Make sure camera is connected with the device: 
 
 ```
-python3 tree_demo.py 
+python3 test.py 
 ```
 
 Once the script is launched, the UI will become available at ```http://localhost:7860```

@@ -1,4 +1,5 @@
 # Open-Vocabulary Detection and Classification
+Demo is running on Jetson Orin Nano 8 Gb
 
 ![detection and classification demo](output.gif)
 
